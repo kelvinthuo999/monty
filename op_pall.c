@@ -1,17 +1,20 @@
 #include "monty.h"
+#define UNUSED(x) (void)(x)
 
 /**
- * pall - Prints all elements in the stack.
- * @stack: Double pointer to the head of the stack.
- * @line_number: Line number in the Monty file.
+ * pall - Prints all the values on the stack.
+ * @stack: Double pointer to the top of the stack.
+ * @line_number: Line number being processed.
+ *
+ * Return: None.
  */
 void pall(stack_t **stack, unsigned int line_number)
 {
 	stack_t *current = *stack;
 
-	(void)line_number; /* Unused parameter */
+	UNUSED(line_number);
 
-	while (current)
+	while (current != NULL)
 	{
 		printf("%d\n", current->n);
 		current = current->next;
