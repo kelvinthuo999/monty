@@ -5,7 +5,7 @@
  * @stack: Double pointer to the top of the stack.
  * @line_number: Line number being processed.
  *
- * Return: None.
+ * Return: Nothing
  */
 void add(stack_t **stack, unsigned int line_number)
 {
