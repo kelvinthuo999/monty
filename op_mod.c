@@ -2,7 +2,7 @@
 
 /**
  * _mod - Computes the rest of division of the second top element by the top element.
- * @stack: Double pointer to the top of the stack.
+ * @stack: Double pointer to the beginign of the stack.
  * @line_number: Line number being processed.
  *
  * Return: None.
