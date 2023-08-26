@@ -2,7 +2,7 @@
 #define UNUSED(x) (void)(x)
 
 /**
- * pall - Prints all the values on the stack.
+ * pall - Prints the whole stack.
  * @stack: Double pointer to the top of the stack.
  * @line_number: Line number being processed.
  *
