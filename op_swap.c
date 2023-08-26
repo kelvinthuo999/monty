@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * swap - Swaps the top two elements of the stack.
+ * swap - Interchanges the top two elements of the stack.
  * @stack: Double pointer to the top of the stack.
  * @line_number: Line number being processed.
  *
