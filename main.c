@@ -3,7 +3,7 @@
 /**
  * main - Entry point for the Monty interpreter program.
  * @argc: Number of command-line arguments.
- * @argv: Array of command-line arguments.
+ * @argv: Array containing command-line arguments.
  *
  * Return: 0 on success, EXIT_FAILURE on error.
  */
