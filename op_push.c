@@ -2,7 +2,7 @@
 #define UNUSED(x) (void)(x)
 
 /**
- * push - Pushes an element onto the stack.
+ * push - Adds an element onto the stack.
  * @stack: Double pointer to the top of the stack.
  * @line_number: Line number being processed.
  * @value: Value to be pushed onto the stack.
