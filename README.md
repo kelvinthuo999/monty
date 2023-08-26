@@ -1,3 +1,4 @@
+This is a repositpry for the 0x19. C - Stacks, Queues - LIFO, FIFO project of ALX SWE done by, Kelvin Thuo and Caleb Muthama.
 # NOTES
 
 - LIFO (__Last In, First Out__) is a principle of managing data storage where last element added
